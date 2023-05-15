@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "function.h"
 using namespace std;
 
 struct Date {
@@ -22,4 +22,11 @@ int main()
     
     // before GitHub
     // after:
+
+    //test for function
+    int num1 = 7, num2 = 5;
+    const char* res;
+    res = (compareNumbers(num1, num2)) ? "true" : "false";
+    cout << endl << num1 << " > " << num2 << " ?" << endl << "Its " << res;
+
 }
