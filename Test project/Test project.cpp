@@ -1,6 +1,13 @@
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
+    
+    char name[] = "Pavlo"; 
+    char surname[] = "Khasanov";
+
+    cout << name << " " << surname;
 }
