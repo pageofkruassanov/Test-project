@@ -2,6 +2,12 @@
 
 using namespace std;
 
+struct Date {
+    short day;
+    short month;
+    short year;
+};
+
 int main()
 {
     cout << "Hello World!\n";
